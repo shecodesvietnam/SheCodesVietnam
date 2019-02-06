@@ -1,6 +1,6 @@
 # [SheCodesVietnam] (http://www.shecodesvn.tech/)
 
-This is the repository for SheCodesVietnam's website .
+This is the repository for SheCodesVietnam's website.
 
 ## Communication
 
