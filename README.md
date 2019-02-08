@@ -10,6 +10,7 @@ This is the repository for SheCodesVietnam's website.
 - SheCodesHackathon 2018 [https://www.shecodes.tech](https://www.shecodes.tech)
 - SheCodesTalkshow [https://www.talkshow.hanoi.shecodesvn.tech](https://www.talkshow.hanoi.shecodesvn.tech)
 
+
 ## Communication
   
 - Please join our **[mailing list](http://eepurl.com/dCk3A1)** to update the news.
