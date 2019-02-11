@@ -27,6 +27,9 @@ If you’re interested in the project, feel free to open an issue, create a PR, 
 5. Push to the branch ( `git push origin feature/fooBar` )
 6. Create a new Pull Request
 
+## License
+This project is licensed under the MIT License - you can see [LICENSE](https://github.com/shecodesvietnam/SheCodesVietnam/blob/master/LICENSE) file for details.
+
 ## Communication
   
 - Please join our **[mailing list](http://eepurl.com/dCk3A1)** to update the news.
