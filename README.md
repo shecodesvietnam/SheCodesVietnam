@@ -11,11 +11,11 @@ their way of learning more about technology.
 
 ## Website
 - SheCodesVietnam [https://www.shecodesvn.tech](https://www.shecodesvn.tech)
-- SheCodesHanoi [https://www.hanoi.shecodesvn.tech](https://www.hanoi.shecodesvn.tech) 
-- SheCodesHoChiMinh [https://www.hochiminh.shecodesvn.tech](https://www.hochiminh.shecodesvn.tech)
-- SheCodesHackathon 2019 [https://www.hackathon.shecodesvn.tech](https://www.hackathon.shecodesvn.tech)
+- SheCodesHanoi [hanoi.shecodesvn.tech](hanoi.shecodesvn.tech) 
+- SheCodesHoChiMinh [hochiminh.shecodesvn.tech](hochiminh.shecodesvn.tech)
+- SheCodesHackathon 2019 [hackathon.shecodesvn.tech](hackathon.shecodesvn.tech)
 - SheCodesHackathon 2018 [https://www.shecodes.tech](https://www.shecodes.tech)
-- SheCodesTalkshow [https://www.talkshow.hanoi.shecodesvn.tech](https://www.talkshow.hanoi.shecodesvn.tech)
+- SheCodesTalkshow [talkshow.hanoi.shecodesvn.tech](talkshow.hanoi.shecodesvn.tech)
 
 ## Contribution
 We need help to see our vision turn into reality. Any help, big or small, with the code, idea, suggestion, feedback, typo, anything at all that you think would be of help, is most welcome and much appreciated.
