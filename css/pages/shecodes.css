@@ -1,0 +1,257 @@
+a {
+  text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  background: #bbb;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #451b73;
+  border-radius: 3px;
+}
+
+.page {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.page-wrap {
+  height: 64%;
+  position: absolute;
+  left: 0;
+  top: 18%;
+  display: -ms-flexbox;
+  display: flex;
+  transition: left .6s;
+}
+
+.page-content {
+  width: 100vw;
+  height: 100%;
+}
+
+.page-content-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0 0 0 7%;
+}
+
+.page-content__left {
+  width: 60%;
+}
+
+.page-content__right {
+  width: 40%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-content .content-title {
+  height: 30%;
+  font-size: 60px;
+  font-weight: 700;
+  color: #451b73;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  line-height: 1;
+}
+
+.page-content .content-title img {
+  margin-right: 20px;
+}
+
+.page-content .content-slider {
+  padding: 5% 0 20px 4%;
+  height: 70%;
+}
+
+.page-content .content-slider__item {
+  letter-spacing: .27px;
+  color: #060c22;
+  font-weight: 600;
+  opacity: .85;
+  line-height: 39px;
+  overflow-y: auto;
+  height: calc(100% - 37px);
+  padding: 0 25% 0 0;
+  display: none;
+}
+
+.page-content .content-slider__item.active {
+  display: block;
+}
+
+.page-content .content-slider__control {
+  height: 37px;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 25%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.page-content .content-slider .icon-left {
+  max-height: 27px;
+  opacity: .4;
+  margin: 0 3px;
+}
+
+.page-content .content-slider .icon-right {
+  max-height: 27px;
+  -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+  opacity: .4;
+  margin: 0 3px;
+}
+
+.page-content .content-slider .pagi-item {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.page-content .content-slider .pagi-item.active {
+  background: black;
+}
+
+.header {
+  height: 18%;
+  padding-left: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .logo {
+  height: 27%;
+  position: absolute;
+  top: 38%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 16%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-right: 8%;
+  padding-left: 9%;
+}
+
+.footer-sub {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 25%;
+}
+
+.footer-nav {
+  width: 65%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.footer .sub-item {
+  display: inline-block;
+  transition: .3s;
+}
+
+.footer .sub-item:hover {
+  text-decoration: none;
+  background-color: #a989cc5e;
+  transition: .3s;
+}
+
+.footer .sub-item--text {
+  border: 3px solid;
+  border-radius: 24px;
+  letter-spacing: 1.7px;
+  font-size: 17px;
+  color: #4c4c4c;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 0 26px;
+}
+
+.footer .sub-item--icon {
+  width: 48px;
+  height: 48px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.footer .nav-item {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #6a6d7a;
+  position: relative;
+  transition: color .4s;
+}
+
+.footer .nav-item:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: -6px;
+  width: 0;
+  height: 6px;
+  background: #451b73;
+  right: 0;
+  opacity: 0;
+  transition: all .4s;
+}
+
+.footer .nav-item:hover {
+  text-decoration: none;
+  color: #451b73;
+  transition: color .4s;
+}
+
+.footer .nav-item:hover:after {
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  transition: all .4s;
+}
+
+.footer .nav-item.active {
+  color: #451b73;
+}
+
+.footer .nav-item.active:after {
+  width: 100%;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=shecodes.css.map */
