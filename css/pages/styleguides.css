@@ -1,0 +1,29 @@
+.box-text-link {
+  margin-bottom: 15px;
+}
+
+.box-status {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.box-input__title {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.box-check-radio {
+  margin-top: 50px;
+}
+
+.box-checkbox,
+.box-radio {
+  margin-bottom: 20px;
+}
+
+.box-item-style {
+  margin-bottom: 42px;
+  width: 340px;
+}
+
+/*# sourceMappingURL=styleguides.css.map */
