@@ -633,6 +633,32 @@ a {
   display: flex;
 }
 
+.page-content--hackathon .page-content-wrap {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.link-hackathon{
+  color: #451b73;
+  border: 3px solid #451b73;
+  border-radius: 24px;
+  letter-spacing: 1.7px;
+  font-size: 17px;
+  color: #4c4c4c;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 0 26px;
+  display: inline-block;
+  transition: .3s;
+  margin: 10%;
+}
+
+.link-hackathon:hover {
+  text-decoration: none;
+  background-color: #a989cc5e;
+  transition: .3s;
+}
+
 .page-content--events .content-title {
   height: 100px;
 }

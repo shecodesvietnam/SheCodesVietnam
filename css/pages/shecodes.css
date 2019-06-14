@@ -189,7 +189,7 @@ a {
   transition: .3s;
 }
 
-.footer .sub-item--text {
+.footer .sub-item--text{
   border: 3px solid;
   border-radius: 24px;
   letter-spacing: 1.7px;
