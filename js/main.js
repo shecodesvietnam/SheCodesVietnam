@@ -23,6 +23,7 @@ $(document).ready(function() {
   })
 
   $('.page-wrap').width(pageContent.length * 100 + 'vw');
+
   for (let i = 0; i < navFooter.length; i++) {
     navFooter[ i ].addEventListener('click', function() {
       navFooter.removeClass('active');
@@ -102,19 +103,6 @@ $(document).ready(function() {
     }
   })
 
-  var currentModal = '';
-  $('.event-item').on('click', function() {
-    currentModal = $(this).attr('id');
-    $('.modal.' + currentModal).addClass('open')
-  })
-
-  $('.js-close-modal').on('click', function() {
-    $('.modal.' + currentModal).addClass('closing').removeClass('open');
-    setTimeout(function() {
-      $('.modal').removeClass('closing')
-    }, 600)
-  })
-
   //slider event02
   var sliderIt2 = document.getElementsByClassName('content-slider-item-event02');
   var pagiSlider2 = document.getElementsByClassName('pagination-item-event02');
@@ -185,17 +173,12 @@ $(document).ready(function() {
     }
   })
 
-  //open-close modal
-  var currentModal = '';
   $('.event-item').on('click', function() {
-    currentModal = $(this).attr('id');
-    $('.modal.' + currentModal).addClass('open')
+    let modalID = $(this).attr('id')
+    $('.modal.' + modalID).addClass('open')
   })
 
   $('.js-close-modal').on('click', function() {
-    $('.modal.' + currentModal).addClass('closing').removeClass('open');
-    setTimeout(function() {
-      $('.modal').removeClass('closing')
-    }, 600)
+    $('.modal').removeClass('open')
   })
 })
