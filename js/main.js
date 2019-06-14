@@ -181,4 +181,22 @@ $(document).ready(function() {
   $('.js-close-modal').on('click', function() {
     $('.modal').removeClass('open')
   })
+
+  //modal group
+  $('.js-show-modal-group').on('click', function() {
+    let modalID = $(this).parent().attr('id')
+    $('.modal.modal-group--' +modalID).addClass('open')
+  })
+
+  var tabLink = document.getElementsByClassName('tab-link');
+  var tabContentItem = document.getElementsByClassName('.tab-content-item');
+  for (let i = 0; i < tabLink.length; i++) {
+    tabLink[i].addEventListener('click', function() {
+      $('.tab-link').removeClass('active');
+      this.classList.add('active');
+      let modalIsShow = this.getAttribute('tab-link')
+      $('.tab-content-item').removeClass('active');
+      $('.tab-content-item.' + modalIsShow).addClass('active')
+    })
+  }
 })
