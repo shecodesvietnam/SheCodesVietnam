@@ -185,7 +185,7 @@ $(document).ready(function() {
   //modal group
   $('.js-show-modal-group').on('click', function() {
     let modalID = $(this).parent().attr('id')
-    $('.modal.modal-group--' +modalID).addClass('open')
+    $('.modal.modal-group--' + modalID).addClass('open')
   })
 
   var tabLink = document.getElementsByClassName('tab-link');
