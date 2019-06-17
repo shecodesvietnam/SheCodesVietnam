@@ -199,4 +199,20 @@ $(document).ready(function() {
       $('.tab-content-item.' + modalIsShow).addClass('active')
     })
   }
+  //slider partners
+  var partnersItem = document.getElementsByClassName('partners-slider-item');
+  var partnersPagi = document.getElementsByClassName('pagination-partners');
+  var partnersWrap = $('.partners-slider-wrap');
+  $(partnersWrap).css('width', partnersItem.length*100 + '%');
+  var currentPartner = 0;
+  for (let i = 0; i < partnersPagi.length; i++) {
+    partnersPagi[i].addEventListener('click', function() {
+      $('.pagination-partners').removeClass('active');
+      this.classList.add('active');
+      if (i !== currentPartner) {
+        $(partnersWrap).css('left', -i*100 + '%');
+        currentPartner = i;
+      }
+    })
+  }
 })
