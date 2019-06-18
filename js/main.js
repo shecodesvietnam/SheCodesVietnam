@@ -206,7 +206,7 @@ $(document).ready(function() {
   $(partnersWrap).css('width', partnersItem.length*100 + '%');
   var currentPartner = 0;
   for (let i = 0; i < partnersPagi.length; i++) {
-    partnersPagi[i].addEventListener('click', function() {
+    partnersPagi[i].addEventListener('mouseover', function() {
       $('.pagination-partners').removeClass('active');
       this.classList.add('active');
       if (i !== currentPartner) {
