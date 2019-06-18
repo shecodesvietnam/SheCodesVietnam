@@ -179,8 +179,20 @@
 
       <!-- Footer Navbar-->
       <footer class="footer">
-        <div class="footer-nav"><a class="nav-item active" href="#">GIỚI THIỆU</a><a class="nav-item" href="#">SỰ KIỆN</a><a class="nav-item" href="#">ĐỘI NGŨ</a><a class="nav-item" href="#">SHECODES HACKATHON 2019</a><a class="nav-item" href="http://blog.shecodesvn.tech/">BLOG</a><a class="nav-item" href="#">ĐỐI TÁC</a></div>
-        <div class="footer-sub"><a class="sub-item sub-item--text" href="#">SUBSCRIBE</a>
+        <div class="footer-nav"><a class="nav-item active" href="#">GIỚI THIỆU</a><a class="nav-item" href="#">SỰ KIỆN</a><a class="nav-item" href="#">ĐỘI NGŨ</a><a class="nav-item" href="#">SHECODES HACKATHON 2019</a><a class="nav-item" target="_blank" href="http://blog.shecodesvn.tech/">BLOG</a><a class="nav-item" href="#">ĐỐI TÁC</a></div>
+        <div class="footer-sub">
+            <a class="sub-item sub-item--text" id="subButton" href="#">SUBSCRIBE</a>
+            <div class="sub">
+              <!-- pure-form pure-form-stacked -->
+              <form name="sentMessage" id="gform" method="POST" class="pure-form" role="form" class="contactForm" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwG2CdZz2csuAvmOzJMngLE2ordNWpGKMXWxcF0/exec">
+                <div class="form-row justify-content-center">
+                  <div class="col-auto">
+                    <input type="email" class="form-control" id="input-form" name="email" id="email" placeholder="Enter your mail" data-rule="email" data-msg="Please enter a valid email" />
+                    <button type="submit" style="display: inline-block;"><img  src="images/subscribe-arrow.png"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
           <div></div>
           <a class="sub-item sub-item--icon" target="_blank" href="https://www.facebook.com/shecodesvietnam/"><img src="images/fb.png" /></a>
           <a class="sub-item sub-item--icon" target="_blank" href="https://www.instagram.com/shecodes.vietnam/?hl=en"><img src="images/insta.png" /></a>

@@ -215,4 +215,12 @@ $(document).ready(function() {
       }
     })
   }
+
+  // Subscribe button
+  $("#subButton").click(function(){
+    $(this).hide();
+    $(".sub form").show();
+    return false;
+  })
+
 })

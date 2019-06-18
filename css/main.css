@@ -1694,6 +1694,18 @@ a {
       align-items: flex-end;
 }
 
+.sub form{
+  display: none;
+}
+
+#input-form{
+  width: 160px;
+  height: 30px;
+  border-radius:10px;
+  -moz-border-radius:13px;
+  -webkit-border-radius:10px;
+}
+
 @media screen and (max-width: 1024px) {
   .content-slider-control {
     height: 30px;
